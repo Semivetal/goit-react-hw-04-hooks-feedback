@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 700;
+  color: cadetblue;
+}
+
+p {
+  color: tomato;
+  font-size: large;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}

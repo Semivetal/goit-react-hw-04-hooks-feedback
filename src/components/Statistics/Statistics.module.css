@@ -1,0 +1,30 @@
+.stats {
+  color: rgb(12, 172, 12);
+  font-size: medium;
+  font-weight: 600;
+}
+
+.title {
+  color: brown;
+}
+
+.list {
+  list-style: none;
+  color: crimson;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.item {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid crimson;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
